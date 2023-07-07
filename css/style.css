@@ -178,6 +178,10 @@ a {
   background-color: var(--main-color);
   border: none;
   padding: 10px;
+  cursor: pointer;
+}
+#submitbtn:hover{
+  opacity: 0.9;
 }
 /* end of contact form */
 /* start of footer */

@@ -100,6 +100,7 @@ a {
   grid-template-columns: 2fr 1fr;
   align-items: center;
   gap: 0.5rem;
+  
 }
 
 .section-title {
@@ -149,6 +150,36 @@ a {
 
 /* end of about */
 
+/* start of contact form */
+.form label {
+  display: block;
+  margin-bottom: 0.2rem;
+  margin-top: 0.3rem;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding-left: 0.5rem;
+}
+.form .container .section-title {
+  text-align: center;
+  margin-top: 1rem;
+}
+.form input:focus,
+.form textarea:focus{
+  outline: none;
+}
+.form textarea{
+  padding-top: 0.5rem;
+}
+
+#submitbtn{
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  padding: 10px;
+}
+/* end of contact form */
 /* start of footer */
 footer {
   background-color: var(--main-color);
@@ -157,6 +188,10 @@ footer {
   text-align: center;
   text-transform: capitalize;
   margin-top: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
 }
 /* end of footer */
 
